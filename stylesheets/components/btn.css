@@ -1,0 +1,39 @@
+.btn-timer {
+  border: none;
+  border-radius: 999px;
+  padding: 8px 25px;
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.btn-timer:hover {
+  opacity: 1;
+}
+
+.btn-basic {
+  transition: all .3s ease;
+  text-align: center;
+  background-color: rgb(39, 39, 39);
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color:#fff;
+}
+
+.btn-basic:hover {
+  background-color: #000;
+  opacity: 1;
+}
+
+.red {
+  background-color: rgba(190, 22, 22, 0.699);
+}
+
+.green {
+  background-color: rgba(47, 124, 28, 0.801);
+}
+
+.blue {
+  background-color: rgb(23, 77, 228);
+}

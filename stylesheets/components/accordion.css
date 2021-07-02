@@ -1,0 +1,56 @@
+.accordion {
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.question {
+  border-top: 1px solid rgba(148, 148, 148, 0.212);
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+.no-border {
+  border: none;
+}
+
+.question h2 {
+  font-size: 20px;
+  margin: 0;
+  color: #810e06;
+}
+
+.question i {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #810e06;
+  transition: 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+.answer {
+  transition: 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.answer p {
+  padding: 20px;
+}
+
+.accordion li.open .answer {
+  max-height: 150px;
+}
+
+.accordion li.open .question i {
+  transform: rotate(180deg)
+}

@@ -1,0 +1,16 @@
+.content {
+  padding: 50px;
+  font-size: 19px;
+  line-height: 1.5;
+  min-height: 2000px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.scroll-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 6px;
+  background: #1CE;
+}
