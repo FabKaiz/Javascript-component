@@ -98,7 +98,7 @@ body.show-floater .overlay {
 .delete-btn {
   position: relative; 
   top: -88px; 
-  right: -520px;
+  right: -260px;
   color: rgb(197, 197, 197);
   font-size: 17px;
   transition: color 0.3s ease;

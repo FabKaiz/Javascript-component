@@ -39,3 +39,34 @@ hr {
 a {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 400px){
+  .timer {
+    font-size: 80px;
+  }
+}
+@media only screen and (min-width: 300px){
+  .delete-btn{
+    right: -385px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .delete-btn{
+    right: -520px;
+  }
+}
+@media only screen and (min-width: 992px){
+  .delete-btn{
+    right: -700px;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .delete-btn{
+    right: -850px;
+  }
+}
+@media only screen and (min-width: 1400px){
+  .delete-btn{
+    right: -990px;
+  }
+}
