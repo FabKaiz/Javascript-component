@@ -1,0 +1,13 @@
+.box {
+  text-align: center;
+  transition: all 0.2 ease;
+  padding: 10;
+}
+
+.box p {
+  visibility: hidden;
+  width: 240px;
+  margin: 10px auto 0;
+  transform: translateX(-150px);
+  transition: 0.4s ease-in;
+}
