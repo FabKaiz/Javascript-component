@@ -1,0 +1,12 @@
+.mousemove { 
+  height: 50px;
+  width: 50px;
+  border: 2px solid #1CE;
+  position: absolute;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+  transition: all 0.1s;
+  pointer-events: none;
+  cursor: none;
+  z-index: 99;
+}

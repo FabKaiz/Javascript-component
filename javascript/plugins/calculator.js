@@ -32,6 +32,4 @@ function reset() {
   total = 0;
 }
 
-console.log('hey');
-
 export { addition, subtraction, division, multiplication, }
