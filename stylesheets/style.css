@@ -6,6 +6,7 @@
 @import './components/bookmark.css';
 @import './components/quiz.css';
 @import './components/mouseevent.css';
+@import './components/calculator.css';
 
 
 body {

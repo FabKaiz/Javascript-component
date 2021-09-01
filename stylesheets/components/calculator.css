@@ -1,0 +1,44 @@
+.calc {
+  display: grid;
+  width: 400px;
+  margin: 0 auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50px repeat(5, 50px);
+  grid-template-areas: 
+  "result result result result"
+  "7 8 9 reset"
+  "4 5 6 reset"
+  "1 2 3 reset"
+  "0 dot plus minus"
+  "equal equal times div";
+  border: 2px solid rgb(17, 167, 122);
+  border-radius: 4px;
+  padding: 2px;
+}
+
+h3#result {
+  text-align: right;
+  margin: 7px 10px 0 0;
+  grid-area: result;
+}
+
+.btn-calc {
+  border:none;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(17, 167, 122);
+  transition: all 0.15s;
+}
+
+.btn-calc:hover {
+  background-color: rgba(17, 167, 122, 0.61);
+}
+
+#equal {
+  grid-area: equal;
+}
+
+#clear {
+  grid-area: reset;
+}
