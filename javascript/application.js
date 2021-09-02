@@ -7,3 +7,4 @@ import './plugins/bookmark.js';
 import './plugins/calculator.js';
 import './plugins/quiz.js';
 import './plugins/mouseevent.js';
+import './plugins/password_generator.js';
