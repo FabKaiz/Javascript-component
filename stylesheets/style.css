@@ -7,6 +7,7 @@
 @import './components/quiz.css';
 @import './components/mouseevent.css';
 @import './components/calculator.css';
+@import './components/password_generator.css';
 
 
 body {

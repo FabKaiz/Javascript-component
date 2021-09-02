@@ -140,6 +140,30 @@
         <button class="btn-calc" id="clear">C</button>
       </div>
     </div>
+    <hr>
+    <!-- Password generator -->
+    <div class="jumbotron">
+      <div class="password-generator-container">
+        <input type="text" id="password-output" value="Password Output" readonly>
+        <div class="range-container">
+          <p class='m-0'>Password length:</p>
+          <input type="range" id="password-range" value="6" id="password-range" min="6" max="32" step="2" oninput="document.getElementById('display-password-length').value = this.value">
+          <input type="text" id="display-password-length" value="6">
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="lowercase" checked>
+          <label for="lowercase" class="password-label">a-z</label>
+          <input type="checkbox" id="uppercase">
+          <label for="uppercase" class="password-label">A-Z</label>
+          <input type="checkbox" id="number">
+          <label for="number" class="password-label">0-9</label>
+          <input type="checkbox" id="symbols">
+          <label for="symbols" class="password-label">@-?</label>
+        </div>
+        <button id="generateButton" class="btn-basic">Generate Password</button>
+      </div>
+    </div>
+
 
     <!-- Text for the scroll line -->
     <p class="content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto praesentium illo recusandae veritatis odit? Nihil necessitatibus omnis, hic earum delectus error, velit ex numquam provident placeat adipisci dignissimos ut! Quibusdam!</p>
