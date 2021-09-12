@@ -8,6 +8,7 @@
 @import './components/mouseevent.css';
 @import './components/calculator.css';
 @import './components/password_generator.css';
+@import './components/carousel.css';
 
 
 body {
@@ -19,6 +20,7 @@ body {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: .3rem;
+  overflow: hidden;
 }
 
 .text-giant {
