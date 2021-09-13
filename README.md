@@ -1,5 +1,5 @@
 # Javascript-component
-### Different types of components using vanilla Javascript
+### Different types of components using vanilla Javascript (no library) including:
 * Scrolling progress bar
 * 3 differents Carousel
 * Password Generator
