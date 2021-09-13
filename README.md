@@ -1,6 +1,9 @@
 # Javascript-component
 ### Different types of components using vanilla Javascript
 * Scrolling progress bar
+* 3 differents Carousel
+* Password Generator
+* Calculator
 * Price calculator
 * Button mooving away from the mouse
 * Timer
@@ -8,8 +11,10 @@
 * Bookmark with OpenGraph API (stored with LocalStorage)
 * Quiz dom event
 * Mouse events
-* Calculator
-* Password Generator
-* 3 differents Carousel
 * And more to come
-![alt text](https://i.ibb.co/QNKGCXN/Capture-d-e-cran-2021-07-02-a-14-42-10.png)
+### Link to try :) :
+
+#### https://fabkaiz.github.io/Javascript-component/
+
+### Preview :
+![alt text](https://i.ibb.co/ftHP9jC/screencapture-127-0-0-1-5501-index-html-2021-09-13-23-45-23.png)
