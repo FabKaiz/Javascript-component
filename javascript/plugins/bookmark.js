@@ -1,5 +1,5 @@
-import URL_API_KEY from "../api_key.js";
-
+// import URL_API_KEY from "../api_key.js";
+/*
 const body          = document.body;
 const overlay       = document.querySelector('.overlay');
 const input         = document.querySelector('.bookmark-input');
@@ -82,3 +82,5 @@ bookmarksList.addEventListener('click', removeBookmark);
 fillBookmarksList(bookmarks);
 
 export { showFloater, closeFloater, createBookmark }
+
+*/
