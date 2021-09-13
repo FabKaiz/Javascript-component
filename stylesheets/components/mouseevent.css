@@ -5,7 +5,7 @@
   position: absolute;
   border-radius: 50px;
   transform: translate(-50%, -50%);
-  transition: all 0.1s;
+  transition: all 0.05s;
   pointer-events: none;
   cursor: none;
   z-index: 99;

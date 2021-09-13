@@ -1,10 +1,6 @@
 .btn-crazy {
   position: absolute;
-  top: 370px;
-  left: 40%;
-  width: 110px;
   transition: all .3s ease;
-  text-align: center;
   background-color: #FFF;
   border: 1px solid black;
   padding: 10px 20px;
